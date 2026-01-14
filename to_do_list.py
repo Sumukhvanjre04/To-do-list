@@ -23,7 +23,7 @@ def add_task():
     priority=input("What is the priority of this task (high/medium/low):")
     data_group={"Task":task,"Due date":formatted,"Priority":priority,"Completed":False}
     task_list.append(data_group)
-    #tasks.append(task)
+    
     print("\nThe task added successfully!")
     
 
